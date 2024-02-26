@@ -162,8 +162,6 @@ FROM
 				) q
 		)qq
 
-	
-
 	SELECT *
 	FROM (
 		SELECT DISTINCT
@@ -180,3 +178,5 @@ FROM
 				,[11], [12], [13], [14], [15]
 				,[16] ) 
 	)	AS pivot_tbl
+
+
